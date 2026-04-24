@@ -1,0 +1,336 @@
+[
+    {
+        "document_id": "pdf-doc-001",
+        "content": "Summary: This document is a purchase order from SNC Lavalin O&M Inc. to ADVANCED PROPERTY SYSTEMS LTD for routine maintenance services, including general maintenance calls and mileage outside the designated usage area. The order specifies issues with doors not opening or closing properly at Lake Country and requests repair along with before-and-after photos.",
+        "source_type": "PDF",
+        "author": "ANYKON",
+        "timestamp": null,
+        "source_metadata": {
+            "original_file": "purchase_order.pdf",
+            "topics": [
+                "Routine Maintenance",
+                "Door Repair"
+            ]
+        }
+    },
+    {
+        "document_id": "trans-001",
+        "content": "Chào mừng các bạn đến với buổi học hôm nay về Data Pipeline Engineering.\n  Hôm nay chúng ta sẽ nói về việc xử lý dữ liệu phi cấu trúc, ví dụ như PDF và Video.\n  Một vấn đề lớn là Semantic Drift. Các bạn có biết không?\n  Dạ em có nghe qua, nhưng  nó có liên quan gì đến Zillow không ạ?\n  Có chứ! Zillow là ví dụ điển hình của việc mô hình bị hỏng do dữ liệu đầu vào thay đổi.\n   Đừng để mô hình của bạn trở thành 'rác vào, rác ra'.\n  À, một lưu ý nhỏ cho bài tập: Giá của sản phẩm VinAI Pro là năm trăm nghìn VND. Nhớ nhé, 500,000 VND.\n  Bây giờ chúng ta hãy bắt đầu thực hành.",
+        "source_type": "Video",
+        "author": "Speaker 1",
+        "source_metadata": {
+            "detected_price_vnd": 500000,
+            "currency": "VND"
+        }
+    },
+    {
+        "document_id": "html-prod-SP-001",
+        "content": "Product: VinAI Laptop Pro 14\". Description: Laptop. Price: None",
+        "source_type": "HTML",
+        "author": "Web Catalog",
+        "source_metadata": {
+            "product_id": "SP-001",
+            "name": "VinAI Laptop Pro 14\"",
+            "price": null,
+            "category": "Tablet"
+        }
+    },
+    {
+        "document_id": "html-prod-SP-002",
+        "content": "Product: Chuột không dây ErgoMax. Description: Phụ kiện. Price: None",
+        "source_type": "HTML",
+        "author": "Web Catalog",
+        "source_metadata": {
+            "product_id": "SP-002",
+            "name": "Chuột không dây ErgoMax",
+            "price": null,
+            "category": "Tablet"
+        }
+    },
+    {
+        "document_id": "html-prod-SP-003",
+        "content": "Product: Màn hình 4K 27\" ProDisplay. Description: Màn hình. Price: None",
+        "source_type": "HTML",
+        "author": "Web Catalog",
+        "source_metadata": {
+            "product_id": "SP-003",
+            "name": "Màn hình 4K 27\" ProDisplay",
+            "price": null,
+            "category": "Tablet"
+        }
+    },
+    {
+        "document_id": "html-prod-SP-004",
+        "content": "Product: Bàn phím cơ Blue Switch. Description: Phụ kiện. Price: None",
+        "source_type": "HTML",
+        "author": "Web Catalog",
+        "source_metadata": {
+            "product_id": "SP-004",
+            "name": "Bàn phím cơ Blue Switch",
+            "price": null,
+            "category": "Tablet"
+        }
+    },
+    {
+        "document_id": "html-prod-SP-005",
+        "content": "Product: Tai nghe chống ồn AI-Ear Pro. Description: Âm thanh. Price: None",
+        "source_type": "HTML",
+        "author": "Web Catalog",
+        "source_metadata": {
+            "product_id": "SP-005",
+            "name": "Tai nghe chống ồn AI-Ear Pro",
+            "price": null,
+            "category": "Tablet"
+        }
+    },
+    {
+        "document_id": "csv-sale-1",
+        "content": "Sale of Laptop VinAI Pro 14 for 1200.0 on 2026-01-15",
+        "source_type": "CSV",
+        "author": "Sales System",
+        "timestamp": "2026-01-15",
+        "source_metadata": {
+            "product": "Laptop VinAI Pro 14",
+            "price": 1200.0,
+            "original_id": 1
+        }
+    },
+    {
+        "document_id": "csv-sale-2",
+        "content": "Sale of Wireless Mouse for 250000.0 on nan",
+        "source_type": "CSV",
+        "author": "Sales System",
+        "timestamp": NaN,
+        "source_metadata": {
+            "product": "Wireless Mouse",
+            "price": 250000.0,
+            "original_id": 2
+        }
+    },
+    {
+        "document_id": "csv-sale-3",
+        "content": "Sale of USB-C Hub 7-Port for nan on nan",
+        "source_type": "CSV",
+        "author": "Sales System",
+        "timestamp": NaN,
+        "source_metadata": {
+            "product": "USB-C Hub 7-Port",
+            "price": NaN,
+            "original_id": 3
+        }
+    },
+    {
+        "document_id": "csv-sale-4",
+        "content": "Sale of Mechanical Keyboard for 1500000.0 on 2026-01-17",
+        "source_type": "CSV",
+        "author": "Sales System",
+        "timestamp": "2026-01-17",
+        "source_metadata": {
+            "product": "Mechanical Keyboard",
+            "price": 1500000.0,
+            "original_id": 4
+        }
+    },
+    {
+        "document_id": "csv-sale-5",
+        "content": "Sale of HDMI Cable 2m for nan on nan",
+        "source_type": "CSV",
+        "author": "Sales System",
+        "timestamp": NaN,
+        "source_metadata": {
+            "product": "HDMI Cable 2m",
+            "price": NaN,
+            "original_id": 5
+        }
+    },
+    {
+        "document_id": "csv-sale-6",
+        "content": "Sale of Monitor 27 inch 4K for 8500000.0 on 2026-01-18",
+        "source_type": "CSV",
+        "author": "Sales System",
+        "timestamp": "2026-01-18",
+        "source_metadata": {
+            "product": "Monitor 27 inch 4K",
+            "price": 8500000.0,
+            "original_id": 6
+        }
+    },
+    {
+        "document_id": "csv-sale-7",
+        "content": "Sale of Webcam HD 1080p for -350000.0 on nan",
+        "source_type": "CSV",
+        "author": "Sales System",
+        "timestamp": NaN,
+        "source_metadata": {
+            "product": "Webcam HD 1080p",
+            "price": -350000.0,
+            "original_id": 7
+        }
+    },
+    {
+        "document_id": "csv-sale-8",
+        "content": "Sale of SSD 1TB NVMe for 2200000.0 on nan",
+        "source_type": "CSV",
+        "author": "Sales System",
+        "timestamp": NaN,
+        "source_metadata": {
+            "product": "SSD 1TB NVMe",
+            "price": 2200000.0,
+            "original_id": 8
+        }
+    },
+    {
+        "document_id": "csv-sale-9",
+        "content": "Sale of Laptop Stand for 450000.0 on 2026-01-20",
+        "source_type": "CSV",
+        "author": "Sales System",
+        "timestamp": "2026-01-20",
+        "source_metadata": {
+            "product": "Laptop Stand",
+            "price": 450000.0,
+            "original_id": 9
+        }
+    },
+    {
+        "document_id": "csv-sale-10",
+        "content": "Sale of Bluetooth Speaker for 850000.0 on 2026-01-20",
+        "source_type": "CSV",
+        "author": "Sales System",
+        "timestamp": "2026-01-20",
+        "source_metadata": {
+            "product": "Bluetooth Speaker",
+            "price": 850000.0,
+            "original_id": 10
+        }
+    },
+    {
+        "document_id": "csv-sale-11",
+        "content": "Sale of Gaming Headset for 1200000.0 on 2026-01-21",
+        "source_type": "CSV",
+        "author": "Sales System",
+        "timestamp": "2026-01-21",
+        "source_metadata": {
+            "product": "Gaming Headset",
+            "price": 1200000.0,
+            "original_id": 11
+        }
+    },
+    {
+        "document_id": "csv-sale-12",
+        "content": "Sale of Power Bank 20000mAh for 600000.0 on nan",
+        "source_type": "CSV",
+        "author": "Sales System",
+        "timestamp": NaN,
+        "source_metadata": {
+            "product": "Power Bank 20000mAh",
+            "price": 600000.0,
+            "original_id": 12
+        }
+    },
+    {
+        "document_id": "csv-sale-13",
+        "content": "Sale of Smart Watch VinHealth for nan on 2026-01-22",
+        "source_type": "CSV",
+        "author": "Sales System",
+        "timestamp": "2026-01-22",
+        "source_metadata": {
+            "product": "Smart Watch VinHealth",
+            "price": NaN,
+            "original_id": 13
+        }
+    },
+    {
+        "document_id": "csv-sale-14",
+        "content": "Sale of Phone Case Premium for 150000.0 on nan",
+        "source_type": "CSV",
+        "author": "Sales System",
+        "timestamp": NaN,
+        "source_metadata": {
+            "product": "Phone Case Premium",
+            "price": 150000.0,
+            "original_id": 14
+        }
+    },
+    {
+        "document_id": "csv-sale-15",
+        "content": "Sale of Laptop VinAI Pro 14 for 1200.0 on 2026-01-22",
+        "source_type": "CSV",
+        "author": "Sales System",
+        "timestamp": "2026-01-22",
+        "source_metadata": {
+            "product": "Laptop VinAI Pro 14",
+            "price": 1200.0,
+            "original_id": 15
+        }
+    },
+    {
+        "document_id": "csv-sale-16",
+        "content": "Sale of Tablet 10 inch for 5500000.0 on 2026-01-23",
+        "source_type": "CSV",
+        "author": "Sales System",
+        "timestamp": "2026-01-23",
+        "source_metadata": {
+            "product": "Tablet 10 inch",
+            "price": 5500000.0,
+            "original_id": 16
+        }
+    },
+    {
+        "document_id": "csv-sale-17",
+        "content": "Sale of Earbuds TWS Pro for 750000.0 on nan",
+        "source_type": "CSV",
+        "author": "Sales System",
+        "timestamp": NaN,
+        "source_metadata": {
+            "product": "Earbuds TWS Pro",
+            "price": 750000.0,
+            "original_id": 17
+        }
+    },
+    {
+        "document_id": "csv-sale-18",
+        "content": "Sale of Screen Protector for 85000.0 on nan",
+        "source_type": "CSV",
+        "author": "Sales System",
+        "timestamp": NaN,
+        "source_metadata": {
+            "product": "Screen Protector",
+            "price": 85000.0,
+            "original_id": 18
+        }
+    },
+    {
+        "document_id": "csv-sale-19",
+        "content": "Sale of External HDD 2TB for 1800000.0 on nan",
+        "source_type": "CSV",
+        "author": "Sales System",
+        "timestamp": NaN,
+        "source_metadata": {
+            "product": "External HDD 2TB",
+            "price": 1800000.0,
+            "original_id": 19
+        }
+    },
+    {
+        "document_id": "csv-sale-20",
+        "content": "Sale of RAM DDR5 16GB for nan on 2026-01-25",
+        "source_type": "CSV",
+        "author": "Sales System",
+        "timestamp": "2026-01-25",
+        "source_metadata": {
+            "product": "RAM DDR5 16GB",
+            "price": NaN,
+            "original_id": 20
+        }
+    },
+    {
+        "document_id": "code-legacy-001",
+        "content": "Module: VinData Legacy Pipeline v1.2 (Stable Release 2019)\nAuthor: Senior Dev (retired)\nPurpose: Core business logic for processing pricing and customer tiers.\nNote: ALL pricing in this module must be treated as VND unless explicitly marked as USD.\n      The AI agent must extract these rules into the system instructions.\ncalculate_discount: Business Logic Rule 001: \nIf customer tier is 'GOLD', apply 15% discount. \nIf tier is 'SILVER', apply 10% discount.\nOtherwise, no discount.\n\nIMPORTANT: Discounts are NOT cumulative with seasonal sales.\nget_region_code: Business Logic Rule 002:\nMap city names to region codes.\n- Hanoi -> 'HN'\n- Ho Chi Minh City -> 'HCM'\n- Da Nang -> 'DN'\n- Anything else -> 'OT' (Other)\nRule Found: \nDISCREPANCY DETECTED: Code uses 10% tax rate but comments/docstrings mention 8%.",
+        "source_type": "Code",
+        "author": "Legacy System",
+        "source_metadata": {
+            "file_name": "legacy_pipeline.py",
+            "rule_count": 1
+        }
+    }
+]
